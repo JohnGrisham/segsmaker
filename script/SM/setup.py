@@ -343,7 +343,7 @@ def facetrainer(ui):
         display(Image(filename=str(IMG)))
 
     SDTFusion = {
-        'FaceFusion': ('--depth 1 https://github.com/LaoJiuYes/facefusion-lockless FaceFusion', TMP / 'venv-fusion'),
+        'FaceFusion': ('--depth 1 https://github.com/JohnGrisham/facefusion FaceFusion', TMP / 'venv-fusion'),
         'SDTrainer': ('--recurse-submodules https://github.com/Akegarasu/lora-scripts SDTrainer', TMP / 'venv-sd-trainer'),
     }
 
